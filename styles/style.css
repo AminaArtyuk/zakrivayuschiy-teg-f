@@ -182,7 +182,6 @@
   align-items: center;
   width: 38px;
   height: 38px;
-  border: none;
   border: 2px solid transparent;
   padding: 0;
   background: transparent;
@@ -311,7 +310,6 @@
   border: 2px solid var(--themes-main-color, rgba(0, 0, 0, 1));
   overflow: hidden;
   color: var(--themes-background, rgba(255, 255, 255, 1));
-  background: transparent;
   background: var(--text-on-button-color, rgba(255, 255, 255, 1));
   transition: box-shadow 0.3s ease;
   cursor: pointer;
