@@ -1,1 +1,27 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --page-bg: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --font-family: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P-Regular", monospace;
+  --wght-main-text: 400;
+  --wght-header: 700;
+  --themes-background: rgba(255, 255, 255, 1);
+  --themes-main-color: rgba(0, 0, 0, 1);
+  --bg-image: url("../images/background.png");
+  --header-width: clamp(375px, calc(260.56px + 30.52vw), 700px);
+  --card-width: clamp(375px, calc(261.97px + 30.14vw), 696px);
+  --button-save-width: clamp(306px, calc(306px + 2.723vw), 335px);
+  --text-stroke-color: rgba(255, 255, 255, 1);
+  --accent-color: rgba(0, 0, 0, 1);
+  --text-on-button-color: rgba(255, 255, 255, 1);
+  --animation-fill-color: rgba(255, 0, 0, 1);
+  --contour-color: rgba(0, 0, 0, 1);
+  --sparks-color: rgba(255, 0, 0, 1);
+  --core-color: rgba(255, 255, 255, 1);
+}
