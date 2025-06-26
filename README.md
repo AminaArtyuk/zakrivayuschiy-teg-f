@@ -1,1 +1,1 @@
-https://aminaartyuk.github.io/zakrivayuschiy-teg-f/
+https://github.com/AminaArtyuk/zakrivayuschiy-teg-f.git
