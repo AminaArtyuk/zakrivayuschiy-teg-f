@@ -24,4 +24,5 @@
   --contour-color: rgba(0, 0, 0, 1);
   --sparks-color: rgba(255, 0, 0, 1);
   --core-color: rgba(255, 255, 255, 1);
+  --dialog-width: clamp(341px, calc(1.127vw + 336.8px), 353px);
 }

@@ -325,14 +325,13 @@
   );
 }
 
-.dialog {
+.dialog { 
   box-sizing: border-box;
   display: grid;
   justify-items: center;
   gap: 30px;
   padding: 30px;
-  overflow: hidden;
-  inline-size: 353px;
+  inline-size: clamp(280px, 90vw, 353px);
 }
 
 .dialog::backdrop {
@@ -352,6 +351,7 @@
 
 .dialog_floppy-icon {
   min-width: 39px;
+  flex-shrink: 0;
 }
 
 .dialog_text {
@@ -359,9 +359,12 @@
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .dialog_button {
+  inline-size: 100%;
   inline-size: 293px;
   block-size: 38px;
 }
@@ -385,4 +388,4 @@
   .dialog_button {
     inline-size: 257px;
   }
-}
+} 
